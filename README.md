@@ -1,22 +1,44 @@
-# 🎯 Sentiment Analyzer – NLP with Jupyter Notebook
 
-This project is a simple **Sentiment Analyzer** for movie reviews, built using **Natural Language Processing (NLP)** techniques and **Naive Bayes** classifier in Python.
 
-✅ Built using **Jupyter Notebook**  
-🧠 Learns to predict **positive** or **negative** sentiment
+<h2 align="center">🧠 Sentiment Analyzer using NLP</h2>
 
-## 🚀 Features
-- Text cleaning and preprocessing
-- Stopwords removal with `nltk`
-- CountVectorizer for word features
-- Model training with `Naive Bayes`
-- Manual prediction for custom input
+<p align="center">
+  Built with 💬 Natural Language Processing + 🔍 Naive Bayes<br>
+  Predicts whether a movie review is <b>Positive</b> or <b>Negative</b>!
+</p>
 
-## 📘 Notebook Preview
-You can view the notebook directly on GitHub 👉  
-**[Click here to view the notebook](Sentiment_Analyzer.ipynb)**
+---
 
-## 🧪 How to Run Locally
+## 📚 Overview
+
+This project demonstrates a basic **NLP pipeline** using Python and Jupyter Notebook. It includes:
+- Cleaning text data
+- Removing stopwords
+- Feature extraction with CountVectorizer
+- Model training with Naive Bayes
+- Sentiment prediction from custom input
+
+---
+
+## 🔍 Example Prediction
+
+> **Input**: “I loved the visuals and story!”  
+> **Output**: `Positive`
+
+---
+
+## 🛠 Tech Stack
+
+- Python
+- Jupyter Notebook
+- `nltk` – Natural Language Toolkit
+- `scikit-learn` – ML algorithms
+- `pandas` – Data manipulation
+
+---
+
+## 🚀 Run It Locally
+
 ```bash
 pip install -r requirements.txt
 jupyter notebook
